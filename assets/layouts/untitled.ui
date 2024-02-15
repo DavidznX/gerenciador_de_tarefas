@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(231, 237, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>530</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(208, 222, 255);</string>
+    </property>
+    <property name="text">
+     <string>Adicionar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>530</y>
+      <width>571</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="refresh">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>530</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(208, 222, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../img/refresh.png</normaloff>../img/refresh.png</iconset>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>771</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::DragDrop</enum>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>256</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>256</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Tarefas</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Prioridade</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
